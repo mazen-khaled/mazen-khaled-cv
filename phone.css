@@ -1,0 +1,145 @@
+@media only screen and (max-width : 700px) {
+    .line {
+        display: none;
+    }
+
+    .logo {
+        display: none
+    }
+
+    .content {
+        display: block;
+        padding: 1% 1% 0% 2%;
+        background-color: #663399;
+    }
+
+    .icon-img {
+        display: inline-block;
+        width: 5%;
+        padding:1.5%;
+        background-color: #1a1a1a;
+    }
+    .icon-img:hover {
+        background-color: #333333;
+    }
+
+    .logo-2 {
+        display: inline-block;
+        margin-left: 73%;
+        width: 15%;
+    }
+
+    header {
+        text-align: center;
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.40) inset;
+        background-image: none;
+        background-color: #333333;
+    }
+
+    .mk {
+        position: static;
+        margin-top: 1%;
+        width: 27%;
+        border-radius: 100%;
+        box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.73);
+    }
+
+    .name {
+        position: static;
+        display: block;
+        padding: 0px;
+        margin: 20px 0;
+        font-size: 17px;
+        line-height: normal;
+        color: #FF0;
+    }
+
+    .left {
+        text-align: center;
+        display: none;
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        height: 100%;
+        width: 43%;
+        border-radius: 0px;
+        margin: 0;
+        padding: 1% 5%;
+        overflow: hidden;
+        box-shadow: none;
+        background-color: #1a1a1a;
+        z-index: 4;
+    }
+
+    .two {
+        width: 16%;
+        margin: 4% -6%;
+        display: block;
+        padding: 2%;
+        background-color: #3f3f3f;
+    }
+    .two:hover {
+        background-color: rgba(63, 63, 63, 0.70)
+    }
+
+    .accts {
+        position: static;
+        text-align: center;
+        margin-top:23%;
+    }
+
+    .acct1 {
+        display:none
+    }
+
+    .linkedin:hover, .github:hover, .facebook:hover {
+        box-shadow: 4px 4px 3px rgba(18, 18, 18, 0.90);
+    }
+
+
+    .others{
+        text-align:center;
+    }
+    .gmail, .wts {
+        margin-top: 20%;
+        cursor: auto;
+    }
+    .acct-g, .acct-w {
+        position: static;
+        color: #fff;
+        font: bold 14px Arial;
+        display: block;
+        border-bottom: none;
+        padding: 2px 8px 2px 3px;
+        border-radius: 0;
+        color:#000
+    }
+
+
+    .right {
+        margin-left: 2%;
+        margin-bottom: 3%;
+        width: 95%;
+        top: -40px;
+        z-index: 1;
+        font: italic bold 16px / 1px Arial
+    }
+    
+    .summary {
+        font: 18px Open Sans,Helvetica,sans-serif;
+        line-height: 35px
+    }
+}
+
+@media only screen and (max-width : 550px) {
+
+    .acct1 {
+        margin-top: -3%;
+        display: block;
+        border: 0.5px solid #fff;
+        color: #fff
+    }
+    .left{
+        width:43%
+    }
+}
