@@ -216,10 +216,12 @@ a{
     text-transform: uppercase;
     color: #fff;
     border-radius: 10px;
+    border: 3px outset #ff0053;
     transition: all ease 0.5s;
 }
 .zm:hover {
     background: #e30048;
+    border: 3px outset #e30048;
     box-shadow: 3px 3px 10px #c3bdbd
 }
 
