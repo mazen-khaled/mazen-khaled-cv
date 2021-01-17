@@ -129,11 +129,9 @@
         font: 18px Open Sans,Helvetica,sans-serif;
         line-height: 35px
     }
-    span.zm{
-       font: 14px 
-    }
     .zm{
        padding: 7px 15px;
+       font-size: 14px; 
     }
 }
 
