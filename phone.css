@@ -129,6 +129,9 @@
         font: 18px Open Sans,Helvetica,sans-serif;
         line-height: 35px
     }
+    .zm{
+       font: 18px 
+    }
 }
 
 @media only screen and (max-width : 550px) {
