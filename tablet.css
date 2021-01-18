@@ -75,6 +75,10 @@
         padding: 25px;
         line-height: 40px
     }
+    .zm{
+        padding: 4px 27px;
+        font-size:16px
+    }
 }
 
 @media only screen and (max-width : 940px) {
